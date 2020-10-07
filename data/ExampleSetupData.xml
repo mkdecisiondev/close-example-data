@@ -11,4 +11,7 @@
     <!-- Overrides Natural Person Certification in moqui-close -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MkAgrNaturalPersonCertification" locale="en" localized="Authorized Signer Certification" />
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PsstTemplateAgrNaturalPersonCert" locale="en" localized="Template Authorized Signer Certification Agreement" />
+
+    <!-- Overrides description of enumId PrtPartner in mantle-udm -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PrtPartner" locale="en" localized="Work Colleague" />
 </entity-facade-xml>
